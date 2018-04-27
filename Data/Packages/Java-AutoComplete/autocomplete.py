@@ -7,15 +7,31 @@ import platform
 import re
 import subprocess
 import zipfile
+import re
 
 # SETTINGS START
 class_cache_size = 64
 
 java_library_completions = True
 # Full path to the src.zip located in the JDK you're using (None to search for it)
-java_library_path = "C:\\Program Files\\Java\\jdk1.8.0_152\\"
-if ( not os.path.exists(java_library_path + "src.zip")):
-	java_library_path = "C:\\Program Files\\Java\\jdk1.8.0_161\\"
+java_library_path = None
+for f in os.listdir("C:\\Program Files\\Java\\"):
+    java_library_path = "C:\\Program Files\\Java\\" + f + "\\"
+    break
+
+if f is None:
+    for f in os.listdir("C:\\Program Files (x86)\\Java\\"):
+        java_library_path = "C:\\Program Files (x86)\\Java\\" + f + "\\"
+        break
+
+with open(sublime.packages_path() + "\\User\\javac152.bat") as f:
+    texto = f.read()
+    texto = re.sub('\".*\"', '\"' + java_library_path + '\\bin\\javac\"', texto)
+    f.close()
+
+file = open(sublime.packages_path() + "\\User\\javac.bat", 'w')
+file.write(texto)
+file.close()
 
 show_static_methods = True
 show_instance_fields = True

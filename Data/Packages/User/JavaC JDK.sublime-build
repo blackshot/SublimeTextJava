@@ -1,15 +1,5 @@
 {
-	"cmd"	:	"echo utiliza las opciones de mas ABAJO",
+	"cmd": ["${packages}\\User\\javac.bat", "$file"],
     "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
-    "selector": "source.java",
-    "variants": [
-    	{
-        	"name": "LAB (3 y 4)",
-        	"cmd": ["D:\\sublime\\javac152.bat", "$file"]
-    	},
-    	{
-        	"name": "LAB 2",
-        	"cmd": ["D:\\sublime\\javac161.bat", "$file"]
-    	}
-	]
+    "selector": "source.java"
 }
