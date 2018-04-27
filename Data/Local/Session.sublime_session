@@ -176,6 +176,15 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/D/asdasd.java",
+					"settings":
+					{
+						"buffer_size": 92,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				}
 			],
 			"build_system": "Packages/Python/Python.sublime-build",
 			"build_system_choices":
@@ -245,6 +254,8 @@
 			},
 			"file_history":
 			[
+				"/D/sublime/Data/Packages/User/JavaC JDK 161 (LAB 2).sublime-build",
+				"/D/sublime/Data/Packages/User/JavaC JDK 152 (LAB 3 y 4).sublime-build",
 				"/D/sublime/Data/Packages/User/JavaC JDK 152.sublime-build",
 				"/D/sublime/Data/Packages/User/JavaC JDK 161.sublime-build",
 				"/C/Users/black/Documents/asdasd/SublimeTextJava/Data/Packages/User/JavaC2.sublime-build",
@@ -287,8 +298,40 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/D/asdasd.java",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 92,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										92,
+										92
+									]
+								],
+								"settings":
+								{
+									"SL.16.region_keys":
+									[
+									],
+									"syntax": "Packages/Java/Java.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -339,8 +382,8 @@
 			{
 				"height": 0.0
 			},
-			"pinned_build_system": "Packages/User/JavaC2.sublime-build",
-			"position": "0,2,3,-1,-1,-1,-1,565,26,26,682",
+			"pinned_build_system": "Packages/User/JavaC JDK 161 (LAB 2).sublime-build",
+			"position": "0,2,3,-32000,-32000,-1,-1,565,26,26,682",
 			"project": "",
 			"replace":
 			{

@@ -1,5 +1,5 @@
 {
-   "cmd": ["D:\\sublime\\SublimeTextJava\\javac152.bat", "$file"],
+   "cmd": ["D:\\sublime\\javac152.bat", "$file"],
    "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
    "selector": "source.java"
 }
