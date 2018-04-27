@@ -180,7 +180,7 @@
 					"file": "/D/Main.java",
 					"settings":
 					{
-						"buffer_size": 88,
+						"buffer_size": 112,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
@@ -242,7 +242,7 @@
 					]
 				]
 			],
-			"build_varint": "LAB (3 y 4)",
+			"build_varint": "",
 			"command_palette":
 			{
 				"height": 392.0,
@@ -345,15 +345,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 88,
+								"buffer_size": 112,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										88,
-										88
+										35,
+										35
 									]
 								],
 								"settings":
@@ -421,7 +421,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "Packages/User/JavaC JDK.sublime-build",
-			"position": "0,2,3,-32000,-32000,-1,-1,565,26,26,682",
+			"position": "0,2,3,-1,-1,-1,-1,565,26,26,682",
 			"project": "",
 			"replace":
 			{
