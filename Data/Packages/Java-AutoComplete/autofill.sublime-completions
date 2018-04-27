@@ -1,0 +1,19 @@
+{
+   "scope": "source.java",
+
+   "completions":
+   [
+      { "trigger": "public\tvoid", "contents": "public void $1($2) {\n    $3\n}" },
+      { "trigger": "public\tstatic void", "contents": "public static void $1($2) {\n    $3\n}" },
+      { "trigger": "private\tvoid", "contents": "private void $1($2) {\n    $3\n}" },
+      { "trigger": "private\tstatic void", "contents": "private static void $1($2) {\n    $3\n}" },
+
+      { "trigger": "for\tfor (i = 0)", "contents": "for (int i = 0; i < $1; i++) {\n    $2\n}" },
+      { "trigger": "for\tfor (i = size)", "contents": "for (int i = $1; i >= 0; i--) {\n    $2\n}" },
+
+      { "trigger": "Map\t<K, V>", "contents": "Map<$1, $2>" },
+      { "trigger": "HashMap\t<K, V>", "contents": "HashMap<$1, $2>" },
+      { "trigger": "Hashtable\t<K, V>", "contents": "Hashtable<$1, $2>" },
+      { "trigger": "TreeMap\t<K, V>", "contents": "TreeMap<$1, $2>" },
+   ]
+}

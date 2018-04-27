@@ -1,0 +1,3 @@
+[
+	{ "keys": ["ctrl+k", "ctrl+j"], "command": "java_setter_getter" }
+]
