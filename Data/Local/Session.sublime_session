@@ -177,7 +177,7 @@
 			"buffers":
 			[
 				{
-					"file": "/C/Users/black/Desktop/Main.java",
+					"file": "/C/Users/black/Documents/GitHub/SublimeTextJava/Java/Main.java",
 					"settings":
 					{
 						"buffer_size": 88,
@@ -245,17 +245,21 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 71.0,
-				"last_filter": "python",
+				"height": 203.0,
+				"last_filter": "instal",
 				"selected_items":
 				[
 					[
-						"python",
-						"Set Syntax: Python"
+						"instal",
+						"Package Control: Install Package"
 					],
 					[
 						"java",
 						"Set Syntax: Java"
+					],
+					[
+						"python",
+						"Set Syntax: Python"
 					],
 					[
 						"pytho",
@@ -274,13 +278,17 @@
 						"Package Control: Remove Package"
 					]
 				],
-				"width": 444.0
+				"width": 428.0
 			},
 			"console":
 			{
-				"height": 130.0,
+				"height": 190.0,
 				"history":
 				[
+					"sublime.packages_path()",
+					"view.run_command(\"period_autocomplete\")",
+					"view.exec_command(\"period_autocomplete\")",
+					"view.exe_command(\"period_autocomplete\")",
 					"java_library_path"
 				]
 			},
@@ -295,6 +303,10 @@
 			},
 			"file_history":
 			[
+				"/C/Users/black/Documents/GitHub/SublimeTextJava/Data/Packages/User/JavaC JDK.sublime-build",
+				"/C/Users/black/Documents/GitHub/SublimeTextJava/Data/Packages/User/javacupdater.py",
+				"/C/Users/black/Documents/GitHub/SublimeTextJava/Data/Packages/Java-AutoComplete/Default (Windows).sublime-keymap",
+				"/C/Users/black/Documents/GitHub/SublimeTextJava/Data/Packages/Java-AutoComplete/autocomplete.py",
 				"/C/Users/black/Documents/SublimeTextJava/Data/Packages/Java-AutoComplete/autocomplete.py",
 				"/C/Users/black/Documents/SublimeTextJava/Data/Packages/User/JavaC JDK.sublime-build",
 				"/C/Users/black/Documents/SublimeTextJava/Data/Packages/User/javac161.bat",
@@ -318,7 +330,7 @@
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 23.0
 			},
 			"find_in_files":
 			{
@@ -332,6 +344,9 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"print(path)",
+					")\n",
+					"\");\n"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -354,7 +369,7 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/C/Users/black/Desktop/Main.java",
+							"file": "/C/Users/black/Documents/GitHub/SublimeTextJava/Java/Main.java",
 							"semi_transient": false,
 							"settings":
 							{
@@ -365,15 +380,14 @@
 								"selection":
 								[
 									[
-										86,
-										86
+										88,
+										88
 									]
 								],
 								"settings":
 								{
 									"SL.14.region_keys":
 									[
-										"sublime_linter.protected_regions"
 									],
 									"SL.26.region_keys":
 									[
@@ -392,7 +406,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 23.0
 			},
 			"input":
 			{
@@ -438,11 +452,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "Packages/User/JavaC JDK.sublime-build",
-			"position": "0,2,3,-1,-1,-1,-1,565,26,26,682",
+			"position": "0,2,3,-1,-1,-1,-1,725,280,63,1236",
 			"project": "",
 			"replace":
 			{
-				"height": 0.0
+				"height": 42.0
 			},
 			"save_all_on_build": true,
 			"select_file":

@@ -24,15 +24,6 @@ if f is None:
         java_library_path = "C:\\Program Files (x86)\\Java\\" + f + "\\"
         break
 
-with open(sublime.packages_path() + "\\User\\javac152.bat") as f:
-    texto = f.read()
-    texto = re.sub('\".*\"', '\"' + java_library_path + '\\bin\\javac\"', texto)
-    f.close()
-
-file = open(sublime.packages_path() + "\\User\\javac.bat", 'w')
-file.write(texto)
-file.close()
-
 show_static_methods = True
 show_instance_fields = True
 show_static_fields = True

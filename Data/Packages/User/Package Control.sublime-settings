@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"JavaIME",
 		"Package Control",
 		"SublimeLinter",
 		"SublimeLinter-javac"
