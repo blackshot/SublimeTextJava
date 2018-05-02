@@ -2,7 +2,7 @@ import sublime
 import sublime_plugin
 import re
 import os
-from time import sleep
+
 #class ExampleCommand(sublime_plugin.TextCommand):
 #	def run(self, edit):
 #		self.view.insert(edit, 0, "Hello, World!")

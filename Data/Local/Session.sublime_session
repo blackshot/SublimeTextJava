@@ -177,10 +177,13 @@
 			"buffers":
 			[
 				{
+					"contents": "class Main{\n\n\tpublic static void main(String[] args) {\n\t\tSystem.out.println(\"Hola\");\n\t}\n}",
 					"file": "/C/Users/black/Documents/GitHub/SublimeTextJava/Java/Main.java",
+					"file_size": 92,
+					"file_write_time": 131695978849443325,
 					"settings":
 					{
-						"buffer_size": 88,
+						"buffer_size": 89,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
@@ -373,15 +376,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 88,
+								"buffer_size": 89,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										88,
-										88
+										89,
+										89
 									]
 								],
 								"settings":
