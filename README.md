@@ -7,7 +7,7 @@ Abre una consola de windows (cmd) y escribe esto
 
 ```git clone https://github.com/blackshot/SublimeTextJava.git D:\sublime\```
 
-espera a que se descargue y luego anda a la carpeta y abre sublime_text.exe
+espera a que se descargue y luego anda a la carpeta **D:\sublime\** y abre sublime_text.exe
 
 ![alt text](https://i.imgur.com/cPJT2Cv.png)
 
