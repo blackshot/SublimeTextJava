@@ -1,12 +1,14 @@
 {
 	"folder_history":
 	[
+		"/D/Certamen_2_2_2018",
+		"/D/certamen2",
 		"/C/Users/black/Documents/GitHub/Varios",
 		"/C/Users/black/Documents/GitHub/SublimeTextJava",
 		"/C/Users/black/Documents/vgamerproject/vgamerproject"
 	],
 	"last_version": 3143,
-	"last_window_id": 8,
+	"last_window_id": 9,
 	"log_indexing": false,
 	"settings":
 	{
@@ -85,10 +87,14 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 203.0,
-				"last_filter": "instal",
+				"height": 170.0,
+				"last_filter": "install",
 				"selected_items":
 				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
 					[
 						"instal",
 						"Package Control: Install Package"
@@ -104,10 +110,6 @@
 					[
 						"pytho",
 						"Set Syntax: Python"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
 					],
 					[
 						"Package Control: ",
@@ -171,7 +173,7 @@
 			],
 			"find":
 			{
-				"height": 23.0
+				"height": 25.0
 			},
 			"find_in_files":
 			{
@@ -201,7 +203,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 23.0
+				"height": 25.0
 			},
 			"input":
 			{
@@ -227,7 +229,7 @@
 			"pinned_build_system": "Packages/User/JavaC JDK.sublime-build",
 			"replace":
 			{
-				"height": 42.0
+				"height": 46.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -288,17 +290,6 @@
 			},
 			"buffers":
 			[
-				{
-					"contents": "class Animal{\n\n\tprivate String nombre;\n\n\tpublic static void main(String[] args) {\n\t\t\n\t}\n\n\tpublic String getNombre() {\n\t    return nombre;\n\t}\n\n\tpublic void setNombre(String nombre) {\n\t    this.nombre = nombre;\n\t}\n}",
-					"file": "/C/Users/black/Documents/GitHub/Varios/Java/Cert2Animales/Animal.java",
-					"file_size": 0,
-					"file_write_time": 131707969593617709,
-					"settings":
-					{
-						"buffer_size": 213,
-						"line_ending": "Windows"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -359,10 +350,22 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 203.0,
-				"last_filter": "instal",
+				"height": 318.0,
+				"last_filter": "indent",
 				"selected_items":
 				[
+					[
+						"indent",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"materua",
+						"Material Theme: Configuration"
+					],
 					[
 						"instal",
 						"Package Control: Install Package"
@@ -380,10 +383,6 @@
 						"Set Syntax: Python"
 					],
 					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
 						"Package Control: ",
 						"Package Control: Install Package"
 					],
@@ -392,7 +391,7 @@
 						"Package Control: Remove Package"
 					]
 				],
-				"width": 428.0
+				"width": 464.0
 			},
 			"console":
 			{
@@ -415,15 +414,38 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
-			"expanded_folders":
-			[
-				"/C/Users/black/Documents/GitHub/Varios",
-				"/C/Users/black/Documents/GitHub/Varios/C++",
-				"/C/Users/black/Documents/GitHub/Varios/Java",
-				"/C/Users/black/Documents/GitHub/Varios/Java/Cert2Animales"
-			],
 			"file_history":
 			[
+				"/D/certamen2/Benjamin.java",
+				"/D/certamen2/BebidaG.java",
+				"/D/certamen2/Bebida.java",
+				"/D/certamen2/BebidaA.java",
+				"/D/Certamen_2_2_2018/Axel Leonardo Olguin Villa/BebidaG.java",
+				"/D/Certamen_2_2_2018/Axel Leonardo Olguin Villa/BebidaA.java",
+				"/D/Certamen_2_2_2018/Axel Leonardo Olguin Villa/Axel.java",
+				"/D/Certamen_2_2_2018/Axel Leonardo Olguin Villa/Bebida.java",
+				"/D/Certamen_2_2_2018/292A/Ignacio Urra/IgnacioUrra.java",
+				"/D/Certamen_2_2_2018/292A/Ignacio Urra/Bebida.java",
+				"/D/Certamen_2_2_2018/292A/Ignacio Urra/BebidaG.java",
+				"/D/Certamen_2_2_2018/292A/Ignacio Urra/BebidaA.java",
+				"/D/certamen2/certamen/DylanVidela.java",
+				"/D/certamen2/certamen/BebidaA.java",
+				"/D/certamen2/certamen/Bebida.java",
+				"/D/certamen2/certamen/BebidaG.java",
+				"/D/Certamen_2_2_2018/292A/Samuel/Samuel.java",
+				"/D/Certamen_2_2_2018/292A/Samuel/Bebida.java",
+				"/D/Certamen_2_2_2018/292A/Samuel/BebidaA.java",
+				"/D/Certamen_2_2_2018/292A/Samuel/BebidaG.java",
+				"/D/Certamen_2_2_2018/KevinPeralta.rar",
+				"/D/Certamen_2_2_2018/KevinPeralta/KevinPeralta.java",
+				"/D/Certamen_2_2_2018/KevinPeralta/Bebida.java",
+				"/D/Certamen_2_2_2018/KevinPeralta/BebidaA.java",
+				"/D/Certamen_2_2_2018/KevinPeralta/BebidaG.java",
+				"/D/Certamen_2_2_2018/292A/LuisMuñoz/Luis.java",
+				"/D/Certamen_2_2_2018/292A/LuisMuñoz/Bebida.java",
+				"/D/Certamen_2_2_2018/292A/LuisMuñoz/BebidaA.java",
+				"/D/Certamen_2_2_2018/292A/LuisMuñoz/BebidaG.java",
+				"/D/Certamen_2_2_2018/292A/LuisMuñoz.rar",
 				"/C/Users/black/Documents/vgamerproject/vgamerproject/src/vgamerproject/Usuario.java",
 				"/C/Users/black/Documents/GitHub/SublimeTextJava/Data/Packages/User/JavaC JDK.sublime-build",
 				"/C/Users/black/Documents/GitHub/SublimeTextJava/Data/Packages/User/javacupdater.py",
@@ -452,7 +474,7 @@
 			],
 			"find":
 			{
-				"height": 23.0
+				"height": 25.0
 			},
 			"find_in_files":
 			{
@@ -480,59 +502,21 @@
 				"whole_word": false,
 				"wrap": true
 			},
-			"folders":
-			[
-				{
-					"path": "C:\\Users\\black\\Documents\\GitHub\\Varios"
-				}
-			],
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/C/Users/black/Documents/GitHub/Varios/Java/Cert2Animales/Animal.java",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 213,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										213,
-										213
-									]
-								],
-								"settings":
-								{
-									"SL.66.region_keys":
-									[
-									],
-									"syntax": "Packages/Java/Java.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 23.0
+				"height": 25.0
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 41.0
 			},
 			"layout":
 			{
@@ -567,18 +551,18 @@
 			},
 			"output.exec":
 			{
-				"height": 197.0
+				"height": 82.0
 			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
 			"pinned_build_system": "Packages/User/JavaC JDK.sublime-build",
-			"position": "0,0,1,-1,-1,-1,-1,768,156,106,1112",
+			"position": "0,2,3,-1,-1,-1,-1,844,182,182,1138",
 			"project": "",
 			"replace":
 			{
-				"height": 42.0
+				"height": 46.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -587,6 +571,42 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"certamen/",
+						"certamen2\\certamen\\DylanVidela.java"
+					],
+					[
+						"certamen/bebida",
+						"certamen2\\certamen\\BebidaA.java"
+					],
+					[
+						"certamen/beb",
+						"certamen2\\certamen\\Bebida.java"
+					],
+					[
+						"samuel",
+						"Certamen_2_2_2018\\292A\\Samuel\\BebidaG.java"
+					],
+					[
+						"samuel/",
+						"Certamen_2_2_2018\\292A\\Samuel\\Bebida.java"
+					],
+					[
+						"luismuñoz/beb",
+						"Certamen_2_2_2018\\292A\\LuisMuñoz\\BebidaG.java"
+					],
+					[
+						"luismuñoz/bebida",
+						"Certamen_2_2_2018\\292A\\LuisMuñoz\\BebidaA.java"
+					],
+					[
+						"luismu",
+						"Certamen_2_2_2018\\292A\\LuisMuñoz\\Luis.java"
+					],
+					[
+						"luis",
+						"Certamen_2_2_2018\\292A\\LuisMuñoz.rar"
+					]
 				],
 				"width": 0.0
 			},
@@ -621,7 +641,7 @@
 			"template_settings":
 			{
 			},
-			"window_id": 8,
+			"window_id": 9,
 			"workspace_name": ""
 		}
 	],

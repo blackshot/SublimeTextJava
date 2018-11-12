@@ -5,8 +5,11 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"JavaIME",
+		"Material Theme",
 		"Package Control",
+		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-javac"
 	]
